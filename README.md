@@ -1,9 +1,9 @@
 The original measurements are from the research done by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio and Luca Oneto. See information about their research below
 
+Original research
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset Version 1.0
 
-==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Università degli Studi di Genova.
@@ -18,19 +18,19 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
 
+Tidy Dataset
 ==================================================================
 
 For the tidy dataset the respective mean of the measured variable is calculated for each Subject and Activity. 
 
 The dataset includes the following files
 
-==================================================================
 - "README.md"
 - "codebook_tidy.txt": Shows information about the variables used on the feature vector.
 - "tidy_variables.txt": List of all features.
 - "tidy_data.txt": Tidy data set
 
-Script Run Analysis
+Script "Run_Analysis.R"
 ==================================================================
 
 ```{r}
