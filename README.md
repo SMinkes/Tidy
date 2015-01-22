@@ -1,4 +1,4 @@
-The original measures are from the research done by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio and Luca Oneto. See information about their research below
+The original measurements are from the research done by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio and Luca Oneto. See information about their research below
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
@@ -27,6 +27,8 @@ The dataset includes the following files
 - "tidy_data.txt": Tidy data set
 
 ==================================================================
+
+'''
 
 ## install packages
 install.packages("sqldf")
@@ -79,6 +81,8 @@ tidy <- ddply(new, .(Subject, Activity), numcolwise(mean))
 
 ## write the tidy data set to tidy_data.txt
 write.table(tidy, file="tidy_data.txt", row.name=FALSE)
+
+'''
 
 ==================================================================
 
