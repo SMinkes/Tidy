@@ -1,3 +1,11 @@
+---
+title: "README.md"
+author: "SMinkes"
+date: "Thursday, January 22, 2015"
+output: html_document
+---
+==================================================================
+
 The original measurements are from the research done by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio and Luca Oneto. See information about their research below
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
@@ -28,7 +36,7 @@ The dataset includes the following files
 
 ==================================================================
 
-'''
+```{r}
 
 ## install packages
 install.packages("sqldf")
@@ -82,7 +90,7 @@ tidy <- ddply(new, .(Subject, Activity), numcolwise(mean))
 ## write the tidy data set to tidy_data.txt
 write.table(tidy, file="tidy_data.txt", row.name=FALSE)
 
-'''
+```
 
 ==================================================================
 
