@@ -1,11 +1,4 @@
----
-title: "README.md"
-author: "SMinkes"
-date: "Thursday, January 22, 2015"
-output: html_document
----
 ==================================================================
-
 The original measurements are from the research done by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio and Luca Oneto. See information about their research below
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
