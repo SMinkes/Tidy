@@ -45,7 +45,7 @@ data_std <- select(data, contains("std", ignore.case=TRUE))
 new <- cbind(Subject, data_activity, data_mean, data_std) 
 
 ## create the tidy data set
-tidy <- ddply(new, .(Subject, Activity), numcolwise(mean))
+tidy <- ddply(new, .(Activity, Subject), numcolwise(mean))
 
 ## write the tidy data set to tidy_data.txt
 write.table(tidy, file="tidy_data.txt", row.name=FALSE)
